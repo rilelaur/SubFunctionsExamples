@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{1848C82C-388D-4701-87B2-4FC8FBADF643}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>SubFunctionsExamples.SubFunctionsExamples</StartupObject>
+    <StartupObject>SubFunctionsExamples.RunningTotal</StartupObject>
     <RootNamespace>SubFunctionsExamples</RootNamespace>
     <AssemblyName>SubFunctionsExamples</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,6 +69,8 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="RunningTotal.vb" />
+    <Compile Include="SpecialFunc.vb" />
     <Compile Include="SubFunctionsExamples.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
